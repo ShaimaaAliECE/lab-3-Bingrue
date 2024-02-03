@@ -11,7 +11,7 @@ namespace Lab3App
     {
         public String description;
 
-        public CollectionBoard board;
+        public CollectionBoard collectionBoard;
         
         
         public virtual void AddMe(List<Collectable> collectables)
@@ -24,8 +24,8 @@ namespace Lab3App
         public CollectionBoard Board
         {
 
-            get { return board; }
-            set { board = value; }
+            get { return collectionBoard; }
+            set { collectionBoard = value; }
 
         }
 
