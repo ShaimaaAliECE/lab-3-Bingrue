@@ -11,21 +11,21 @@ namespace Lab3App
     {
         public String description;
 
-        public CollectionBoard collectionBoard;
+        public CollectionBoard board;
         
         
         public virtual void AddMe(List<Collectable> collectables)
         {
             collectables.Add(this);
-            Console.WriteLine(description + " Collected, Congrats!! ");
+            Console.WriteLine(description + " Collected, Congrats!!!! ");
 
         }
 
         public CollectionBoard Board
         {
 
-            get { return collectionBoard; }
-            set { collectionBoard = value; }
+            get { return board; }
+            set { board = value; }
 
         }
 

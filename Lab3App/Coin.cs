@@ -30,6 +30,7 @@ namespace Lab3App
         public void UpdateTotalValue()
         {
             board.totalValue += this.value;
+            Console.WriteLine("Total Value is updated to: {0}", board.totalValue);
         }
 
         public override void AddMe(List<Collectable> list)
