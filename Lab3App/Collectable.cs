@@ -14,9 +14,9 @@ namespace Lab3App
         public CollectionBoard board;
         
         
-        public virtual void AddMe(List<Collectable> list)
+        public virtual void AddMe(List<Collectable> collectables)
         {
-            list.Add(this);
+            collectables.Add(this);
             Console.WriteLine(description + " Collected, Congrats!! ");
 
         }
